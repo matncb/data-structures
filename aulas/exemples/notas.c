@@ -11,7 +11,7 @@ int main()
     scanf("%d", &N);
 
     float *notas;
-    notas = malloc(sizeof(float) * N);
+    notas = (float *) malloc(sizeof(float) * N);
 
     ler_notas(notas, N);
 
